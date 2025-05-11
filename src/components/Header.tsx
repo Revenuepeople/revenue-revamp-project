@@ -15,7 +15,13 @@ const Header = () => {
     <header className="bg-revenuePrimary text-white py-4 px-4 md:px-8 fixed w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <Link to="/" className="text-xl md:text-2xl font-bold">Revenue People</Link>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/21237008-c7e9-4cde-96a1-9f28bec3a6f7.png" 
+              alt="Revenue People Logo" 
+              className="h-10 mr-2"
+            />
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
@@ -28,8 +34,8 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <Button className="bg-revenuePink hover:bg-revenueAccent text-white">
-            Get in Touch
+          <Button asChild className="bg-revenuePink hover:bg-revenueAccent text-white">
+            <Link to="/contact">Get in Touch</Link>
           </Button>
         </div>
 
@@ -51,8 +57,8 @@ const Header = () => {
             <Link to="/about" className="hover:text-revenuePink transition-colors" onClick={toggleMenu}>About Us</Link>
             <Link to="/testimonials" className="hover:text-revenuePink transition-colors" onClick={toggleMenu}>Testimonials</Link>
             <Link to="/contact" className="hover:text-revenuePink transition-colors" onClick={toggleMenu}>Contact</Link>
-            <Button className="bg-revenuePink hover:bg-revenueAccent text-white w-full">
-              Get in Touch
+            <Button asChild className="bg-revenuePink hover:bg-revenueAccent text-white w-full">
+              <Link to="/contact">Get in Touch</Link>
             </Button>
           </nav>
         </div>

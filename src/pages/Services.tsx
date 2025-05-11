@@ -33,7 +33,7 @@ const Services = () => {
                 <div className="md:w-3/4">
                   <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Discovery & Analysis</h3>
                   <p className="text-gray-700">
-                    We begin with a comprehensive assessment of your current business position, challenges, and opportunities. Our team analyzes market trends, competitor landscapes, and internal processes to develop a clear picture of your business ecosystem.
+                    We begin with a comprehensive assessment of your go-to-market strategy, revenue operations, and team structure. Our team analyzes existing processes, identifies gaps, and evaluates your team's capabilities to develop a clear picture of your current situation.
                   </p>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const Services = () => {
                 <div className="md:w-3/4">
                   <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Strategic Planning</h3>
                   <p className="text-gray-700">
-                    Based on our findings, we develop a tailored consultancy strategy aligned with your business objectives. Our plans are realistic, actionable, and designed to deliver measurable results within defined timeframes.
+                    Based on our findings, we develop a tailored GTM and consultancy strategy aligned with your business objectives. Our plans are practical, actionable, and designed to deliver measurable revenue results within defined timeframes.
                   </p>
                 </div>
               </div>
@@ -59,9 +59,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="md:w-3/4">
-                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Implementation Support</h3>
+                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Talent Assessment & Acquisition</h3>
                   <p className="text-gray-700">
-                    Our consultants work alongside your team to implement recommended strategies and initiatives. We provide guidance, training, and resources to ensure successful execution of the proposed changes.
+                    We identify critical skill gaps in your revenue team and help you acquire top talent that aligns with your business goals. Our talent acquisition services focus on finding professionals who can drive meaningful revenue growth.
                   </p>
                 </div>
               </div>
@@ -73,9 +73,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="md:w-3/4">
-                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Performance Monitoring</h3>
+                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Implementation Support</h3>
                   <p className="text-gray-700">
-                    We establish clear KPIs and regularly monitor progress against objectives. Our iterative approach allows for agile adjustments to strategies based on performance data and changing market conditions.
+                    Our consultants work alongside your team to implement recommended strategies and processes. We provide guidance, training, and resources to ensure successful execution and adoption of new approaches.
                   </p>
                 </div>
               </div>
@@ -87,9 +87,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="md:w-3/4">
-                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Long-term Growth Planning</h3>
+                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Performance Monitoring & Optimization</h3>
                   <p className="text-gray-700">
-                    Beyond immediate improvements, we help you build sustainable frameworks for continued growth. Our consultancy focuses on developing internal capabilities and processes that will support your business's long-term success.
+                    We establish clear KPIs and regularly monitor performance against revenue objectives. Our iterative approach allows for continuous improvement and optimization of your go-to-market strategy based on real-world results.
                   </p>
                 </div>
               </div>

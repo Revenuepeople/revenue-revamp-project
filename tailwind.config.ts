@@ -69,6 +69,7 @@ export default {
 				revenuePink: "#FF1053",
 				revenueGray: "#F2F2F2",
 				revenueLight: "#FFFFFF",
+				revenueTeal: "#00B5B8",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

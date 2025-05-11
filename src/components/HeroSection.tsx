@@ -8,14 +8,30 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              Driving Growth Through <span className="text-revenuePink">Strategic Consultancy</span>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight text-center md:text-left">
+              Unlock Your Revenue Potential:
+              <span className="block mt-2">
+                Expert GTM Talent Acquisition & 
+                <span className="relative">
+                  <span className="absolute -bottom-2 left-0 w-3/4 h-1 bg-teal-400"></span>
+                </span>
+              </span>
+              <span className="block mt-2">
+                Consultancy, Building Teams
+              </span>
+              <span className="block mt-2">
+                Primed For Success.
+              </span>
             </h1>
-            <p className="text-lg md:text-xl mb-8 opacity-90 leading-relaxed">
-              We help businesses elevate their revenue potential through expert consultancy, 
-              strategic insights, and proven methodologies tailored to your unique challenges.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="h-12"></div>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-8 text-center md:text-left">
+              Backed by Real-World Revenue
+              <span className="block relative">
+                Leadership Experience.
+                <span className="absolute -bottom-2 left-0 w-3/4 h-1 bg-teal-400"></span>
+              </span>
+            </h2>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button asChild className="bg-revenuePink hover:bg-opacity-90 text-white font-medium py-2 px-6 rounded-md transition-colors text-lg">
                 <Link to="/services">Our Services</Link>
               </Button>
@@ -36,15 +52,15 @@ const HeroSection = () => {
                     </li>
                     <li className="flex items-start">
                       <span className="text-revenuePink font-bold mr-2">✓</span>
-                      <span>Proven strategies tailored to your business</span>
+                      <span>Leadership expertise from industry veterans</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-revenuePink font-bold mr-2">✓</span>
-                      <span>Comprehensive analysis of revenue opportunities</span>
+                      <span>Go-to-market strategy development and execution</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-revenuePink font-bold mr-2">✓</span>
-                      <span>Sustainable growth methodologies</span>
+                      <span>Revenue-focused talent acquisition</span>
                     </li>
                   </ul>
                 </div>

@@ -7,19 +7,25 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Revenue People</h3>
+            <div className="flex items-center mb-4">
+              <img 
+                src="/lovable-uploads/21237008-c7e9-4cde-96a1-9f28bec3a6f7.png" 
+                alt="Revenue People Logo" 
+                className="h-10 mr-2"
+              />
+            </div>
             <p className="mb-4 text-sm opacity-80">
-              Elevating business growth through strategic consultancy and expert guidance.
+              Expert GTM talent acquisition and consultancy, building teams primed for success.
             </p>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Strategic Consultancy</Link></li>
-              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Business Development</Link></li>
-              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Revenue Growth</Link></li>
-              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Market Analysis</Link></li>
+              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Go-to-Market Strategy</Link></li>
+              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Talent Acquisition</Link></li>
+              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Revenue Consultancy</Link></li>
+              <li><Link to="/services" className="hover:text-revenuePink transition-colors">Team Building</Link></li>
             </ul>
           </div>
           

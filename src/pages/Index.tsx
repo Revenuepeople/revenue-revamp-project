@@ -7,6 +7,7 @@ import CtaSection from "@/components/CtaSection";
 import ContactSection from "@/components/ContactSection";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import RevenueApproach from "@/components/RevenueApproach";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <RevenueApproach />
         <ServicesSection />
         <AboutSection />
         <TestimonialsSection />

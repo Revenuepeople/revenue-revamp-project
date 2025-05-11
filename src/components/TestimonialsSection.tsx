@@ -17,25 +17,25 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: "Sarah Johnson",
-    position: "CEO",
+    position: "VP of Sales",
     company: "TechInnovate",
-    quote: "Working with Revenue People completely transformed our business approach. Their consultancy services helped us identify key growth opportunities we'd been missing for years. The ROI has been exceptional.",
+    quote: "Working with Revenue People completely transformed our go-to-market approach. Their consultancy services helped us identify key growth opportunities and build a sales team that consistently overachieves on targets. The ROI has been exceptional.",
     rating: 5,
   },
   {
     id: 2,
     name: "Michael Chen",
-    position: "COO",
+    position: "CEO",
     company: "Growth Dynamics",
-    quote: "The strategic insights provided by the Revenue People team gave us a competitive edge in our market. Their consultancy approach is both innovative and practical, delivering real, measurable results.",
+    quote: "The strategic insights provided by the Revenue People team gave us a competitive edge in our market. Their expertise in revenue operations and talent acquisition is unmatched, delivering real, measurable results for our business.",
     rating: 5,
   },
   {
     id: 3,
     name: "Emily Rodriguez",
-    position: "Head of Sales",
+    position: "Chief Revenue Officer",
     company: "Velocity Partners",
-    quote: "Revenue People's consultancy services helped us restructure our entire sales process. Their expertise in revenue optimization strategies directly contributed to a 40% increase in our quarterly earnings.",
+    quote: "Revenue People's consultancy services helped us restructure our entire GTM function. Their expertise in building high-performing teams directly contributed to a 40% increase in our quarterly revenue within just six months.",
     rating: 5,
   },
   {
@@ -43,7 +43,7 @@ const testimonials: Testimonial[] = [
     name: "David Wilson",
     position: "Managing Director",
     company: "Apex Solutions",
-    quote: "I was skeptical at first, but Revenue People's strategic consultancy has been a game-changer for our business. Their team took the time to understand our unique challenges and provided tailored solutions.",
+    quote: "I was skeptical at first, but Revenue People's strategic consultancy has been a game-changer for our business. Their team took the time to understand our unique challenges and provided tailored solutions that actually work.",
     rating: 5,
   },
 ];
@@ -77,7 +77,7 @@ const TestimonialsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-revenuePrimary">What Our Clients Say</h2>
           <div className="w-20 h-1 bg-revenuePink mx-auto mb-6"></div>
           <p className="text-lg max-w-2xl mx-auto text-gray-600">
-            Don't just take our word for it. See how our consultancy services have helped businesses achieve exceptional growth.
+            Don't just take our word for it. See how our consultancy services have helped businesses achieve exceptional revenue growth.
           </p>
         </div>
         

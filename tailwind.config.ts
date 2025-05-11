@@ -63,13 +63,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors from revenuepeople.io
-				revenuePrimary: "#2D3047",
-				revenueAccent: "#89023E",
-				revenuePink: "#FF1053",
-				revenueGray: "#F2F2F2",
-				revenueLight: "#FFFFFF",
-				revenueTeal: "#00B5B8",
+				// Custom colors from new theme
+				revealTeal: "#07AA96",
+				revealLight: "#E1F3F0",
+				revealBlue: "#448C93",
+				revealDark: "#151523",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

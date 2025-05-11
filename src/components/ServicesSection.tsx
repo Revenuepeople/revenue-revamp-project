@@ -36,29 +36,29 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-white" id="services">
+    <section className="py-20 bg-white" id="services">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-revenuePrimary">Our Consultancy Services</h2>
-          <div className="w-20 h-1 bg-revenuePink mx-auto mb-6"></div>
-          <p className="text-lg max-w-2xl mx-auto text-gray-600">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-revealDark">Our Consultancy Services</h2>
+          <div className="w-24 h-1 bg-revealTeal mx-auto my-6"></div>
+          <p className="text-lg max-w-2xl mx-auto text-revealBlue">
             Our strategic consultancy services are designed to elevate your business performance
             and drive sustainable revenue growth.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {services.map((service, index) => (
-            <Card key={index} className="border border-gray-100 shadow-md hover:shadow-lg transition-shadow overflow-hidden group">
-              <div className="h-2 bg-revenuePink w-full"></div>
+            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow overflow-hidden group bg-white">
+              <div className="h-2 bg-revealTeal w-full"></div>
               <CardHeader className="pt-6 pb-0">
-                <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-revenuePrimary group-hover:text-revenuePink transition-colors">
+                <div className="text-4xl mb-4 flex justify-center">{service.icon}</div>
+                <h3 className="text-xl font-bold text-revealDark group-hover:text-revealTeal transition-colors text-center">
                   {service.title}
                 </h3>
               </CardHeader>
-              <CardContent>
-                <p className="text-gray-600">{service.description}</p>
+              <CardContent className="text-center">
+                <p className="text-revealBlue">{service.description}</p>
               </CardContent>
             </Card>
           ))}

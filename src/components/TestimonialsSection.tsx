@@ -11,6 +11,7 @@ interface Testimonial {
   company: string;
   quote: string;
   rating: number;
+  image: string;
 }
 
 const testimonials: Testimonial[] = [
@@ -21,6 +22,7 @@ const testimonials: Testimonial[] = [
     company: "Voco",
     quote: "Ryan was invaluable in helping us to establish our approach to sales. He provided expert guidance in setting up the fundamentals of a sales function for a SaaS business, and shared insights and approaches which helped us build pipeline and close key deals. He has deep knowledge, great communication skills, and is a delight to work with!",
     rating: 5,
+    image: "/lovable-uploads/25dd3794-f64b-4e57-96ee-d878e9b4a763.png",
   },
   {
     id: 2,
@@ -29,6 +31,7 @@ const testimonials: Testimonial[] = [
     company: "Silkflo",
     quote: "As the founder of a SaaS business, Ryan helped us understand and implement a value-led sales approach, with the goal of improving early-stage conversions. Ryan has deep knowledge and shared practical insights that were invaluable. He guided us through the process of aligning our sales strategy with customer value, resulting in more meaningful client relationships and improved performance.",
     rating: 5,
+    image: "/lovable-uploads/61e35a0d-eeb8-4ccd-a8d5-e65c09fe7844.png",
   },
   {
     id: 3,
@@ -37,6 +40,7 @@ const testimonials: Testimonial[] = [
     company: "Pandektes",
     quote: "Ryan provided invaluable consulting advice to enhance our team's sales fundamentals. His expertise and guidance significantly improved our sales strategies and techniques, leading to notable improvements in our overall performance. Ryan's ability to tailor his approach to our specific needs and communicate complex concepts clearly made a lasting impact on our sales processes.",
     rating: 5,
+    image: "/lovable-uploads/08d29ee5-5024-4446-9154-6b2a496673dc.png",
   },
 ];
 
@@ -102,13 +106,20 @@ const TestimonialsSection = () => {
                     "{testimonials[activeIndex].quote}"
                   </blockquote>
                   
-                  <div className="text-center">
-                    <h4 className="font-bold text-lg text-revenuePrimary">
-                      {testimonials[activeIndex].name}
-                    </h4>
-                    <p className="text-gray-600">
-                      {testimonials[activeIndex].position}, {testimonials[activeIndex].company}
-                    </p>
+                  <div className="flex items-center justify-center gap-4">
+                    <img 
+                      src={testimonials[activeIndex].image} 
+                      alt={testimonials[activeIndex].name}
+                      className="w-16 h-16 rounded-full object-cover"
+                    />
+                    <div className="text-center">
+                      <h4 className="font-bold text-lg text-revenuePrimary">
+                        {testimonials[activeIndex].name}
+                      </h4>
+                      <p className="text-gray-600">
+                        {testimonials[activeIndex].position}, {testimonials[activeIndex].company}
+                      </p>
+                    </div>
                   </div>
                 </CardContent>
               </Card>

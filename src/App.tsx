@@ -4,12 +4,16 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import GoToMarketStrategy from "./pages/services/GoToMarketStrategy";
+import SalesOperations from "./pages/services/SalesOperations";
+import RevenueConsultancy from "./pages/services/RevenueConsultancy";
 
 const queryClient = new QueryClient();
 
@@ -19,9 +23,13 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/go-to-market-strategy" element={<GoToMarketStrategy />} />
+          <Route path="/services/sales-operations" element={<SalesOperations />} />
+          <Route path="/services/revenue-consultancy" element={<RevenueConsultancy />} />
           <Route path="/about" element={<About />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />

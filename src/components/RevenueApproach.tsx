@@ -11,7 +11,7 @@ const RevenueApproach = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-revealDark">The Revenue People Approach</h2>
             <div className="w-24 h-1 bg-revealTeal mx-auto my-6"></div>
             <p className="text-lg text-revealBlue">
-              We bring real-world revenue leadership experience to help businesses optimize their go-to-market
+              We bring real-world revenue leadership experience to help businesses optimise their go-to-market
               strategies and build high-performing revenue teams. Our consultancy approach combines practical
               expertise with proven methodologies to deliver tangible results.
             </p>
@@ -48,7 +48,7 @@ const RevenueApproach = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-revealDark text-center">Team Building</h3>
                 <p className="text-revealBlue mb-4 text-center">
-                  Identifying and acquiring top revenue talent to build high-performing teams aligned with your business objectives.
+                  Building high-performing teams aligned with your business objectives through strategic consultancy and leadership development.
                 </p>
                 <div className="text-center">
                   <Link to="/services" className="inline-flex items-center text-revealTeal hover:underline">
@@ -66,7 +66,7 @@ const RevenueApproach = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-revealDark text-center">Process Optimization</h3>
+                <h3 className="text-xl font-bold mb-3 text-revealDark text-center">Process Optimisation</h3>
                 <p className="text-revealBlue mb-4 text-center">
                   Reviewing and enhancing your revenue operations processes to improve efficiency and drive better results.
                 </p>

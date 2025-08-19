@@ -10,8 +10,8 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
               <span className="text-revealLight">Unlock Your Revenue Potential:</span>
-              <span className="block mt-4">Expert GTM Talent Acquisition &</span>
-              <span className="block mt-2">Consultancy, Building Teams</span>
+              <span className="block mt-4">Expert Consultancy &</span>
+              <span className="block mt-2">Building Teams</span>
               <span className="block mt-2">Primed For Success.</span>
             </h1>
             <div className="h-1 w-24 bg-revealTeal my-6 mx-auto lg:mx-0"></div>
@@ -54,8 +54,8 @@ const HeroSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-revealDark">Veteran Experience</h4>
-                    <p className="text-revealBlue">Industry-leading leadership expertise</p>
+                    <h4 className="font-semibold text-revealDark">Proven Track Record</h4>
+                    <p className="text-revealBlue">15+ years of SaaS success stories</p>
                   </div>
                 </div>
                 
@@ -67,8 +67,8 @@ const HeroSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-revealDark">Revenue Focus</h4>
-                    <p className="text-revealBlue">Strategic talent acquisition for growth</p>
+                    <h4 className="font-semibold text-revealDark">Exit Experience</h4>
+                    <p className="text-revealBlue">Guided companies to $700M+ exits</p>
                   </div>
                 </div>
               </div>

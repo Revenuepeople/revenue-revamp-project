@@ -16,11 +16,11 @@ const CtaSection = () => {
         <div className="w-24 h-1 bg-revealTeal mx-auto my-6"></div>
         <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90">
           Our expert team is ready to help you build effective go-to-market strategies, 
-          optimize your revenue processes, and build high-performing teams.
+          optimise your revenue processes, and build high-performing teams.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-6">
           <Button asChild className="bg-revealTeal hover:bg-opacity-90 text-white font-medium py-3 px-8 rounded-md transition-colors text-lg border-none">
-            <Link to="/contact">Schedule a Consultation</Link>
+            <a href="https://zcal.co/ryan-fagan/30min" target="_blank" rel="noopener noreferrer">Schedule a Consultation</a>
           </Button>
           <Button asChild variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-revealDark font-medium py-3 px-8 rounded-md transition-colors text-lg">
             <Link to="/services">Explore Our Services</Link>

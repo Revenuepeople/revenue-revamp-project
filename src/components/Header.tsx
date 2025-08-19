@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/21237008-c7e9-4cde-96a1-9f28bec3a6f7.png" 
+              src={`${import.meta.env.BASE_URL}lovable-uploads/21237008-c7e9-4cde-96a1-9f28bec3a6f7.png`} 
               alt="Revenue People Logo" 
               className="h-10 mr-2"
             />

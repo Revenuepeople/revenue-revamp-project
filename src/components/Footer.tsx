@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-6">
               <img 
-                src="/lovable-uploads/21237008-c7e9-4cde-96a1-9f28bec3a6f7.png" 
+                src={`${import.meta.env.BASE_URL}lovable-uploads/21237008-c7e9-4cde-96a1-9f28bec3a6f7.png`} 
                 alt="Revenue People Logo" 
                 className="h-12"
               />

@@ -115,44 +115,28 @@ const About = () => {
             <div className="w-20 h-1 bg-revenuePink mx-auto mb-8"></div>
             
             <p className="text-gray-700 mb-12 text-center">
-              Revenue People brings together a team of experienced consultants with diverse backgrounds across industries. Each team member brings unique expertise and perspectives, allowing us to provide comprehensive solutions to complex business challenges.
+              Revenue People brings together experienced consultants with diverse backgrounds across industries. Our team provides comprehensive solutions to complex business challenges.
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="flex flex-col items-center">
-                <div className="w-40 h-40 bg-revenuePrimary rounded-full mb-4"></div>
-                <h3 className="font-bold text-lg text-revenuePrimary">Emma Thompson</h3>
-                <p className="text-gray-600 mb-2">Founder & CEO</p>
-                <p className="text-center text-gray-700">
-                  With over 20 years of experience in business strategy and revenue optimization, Emma leads our consultancy team with vision and expertise.
-                </p>
-              </div>
-              
-              <div className="flex flex-col items-center">
-                <div className="w-40 h-40 bg-revenuePrimary rounded-full mb-4"></div>
-                <h3 className="font-bold text-lg text-revenuePrimary">James Wilson</h3>
-                <p className="text-gray-600 mb-2">Head of Strategy</p>
-                <p className="text-center text-gray-700">
-                  James specializes in developing strategic frameworks that help businesses identify and capitalize on growth opportunities in competitive markets.
-                </p>
-              </div>
-              
-              <div className="flex flex-col items-center">
-                <div className="w-40 h-40 bg-revenuePrimary rounded-full mb-4"></div>
-                <h3 className="font-bold text-lg text-revenuePrimary">Sarah Chen</h3>
-                <p className="text-gray-600 mb-2">Business Development Director</p>
-                <p className="text-center text-gray-700">
-                  Sarah's expertise in market analysis and business development helps clients expand their reach and establish valuable partnerships.
-                </p>
-              </div>
-              
-              <div className="flex flex-col items-center">
-                <div className="w-40 h-40 bg-revenuePrimary rounded-full mb-4"></div>
-                <h3 className="font-bold text-lg text-revenuePrimary">Michael Rodriguez</h3>
-                <p className="text-gray-600 mb-2">Financial Optimization Specialist</p>
-                <p className="text-center text-gray-700">
-                  Michael helps businesses maximize their financial performance through innovative revenue models and operational efficiency improvements.
-                </p>
+            <div className="flex justify-center">
+              <div className="max-w-md">
+                <div className="flex flex-col items-center bg-white rounded-lg shadow-lg p-8">
+                  <div className="w-32 h-32 rounded-full overflow-hidden mb-6 border-4 border-revealTeal">
+                    <img 
+                      src="/src/assets/ryan-fagan.jpg" 
+                      alt="Ryan Fagan" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="font-bold text-xl text-revenuePrimary mb-2">Ryan Fagan</h3>
+                  <p className="text-gray-600 mb-4 font-medium">Founder</p>
+                  <p className="text-center text-gray-700 leading-relaxed">
+                    As a seasoned sales and leadership professional with over 15 years of experience in Go-to-Market (GTM) strategies, Ryan has navigated multiple SaaS journeys, guiding companies from early stages to significant growth milestones. Notably, Ryan was part of a successful SaaS journey that culminated in a remarkable exit exceeding $700 million.
+                  </p>
+                  <p className="text-center text-gray-700 leading-relaxed mt-4">
+                    Beyond operational roles, Ryan has also established a strong track record as an angel investor, backing numerous startups with strategic guidance and capital. This blend of operational expertise and investment acumen positions Ryan as a valuable partner for both early-stage and mature companies seeking to scale effectively.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

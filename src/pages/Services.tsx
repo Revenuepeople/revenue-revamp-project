@@ -12,7 +12,7 @@ const Services = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Our Consultancy Services</h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90">
-            Strategic expertise to help your business achieve sustainable growth and maximize revenue potential.
+            Strategic expertise to help your business achieve sustainable growth and maximise revenue potential.
           </p>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Services = () => {
                 <div className="md:w-3/4">
                   <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Discovery & Analysis</h3>
                   <p className="text-gray-700">
-                    We begin with a comprehensive assessment of your go-to-market strategy, revenue operations, and team structure. Our team analyzes existing processes, identifies gaps, and evaluates your team's capabilities to develop a clear picture of your current situation.
+                    We begin with a comprehensive assessment of your go-to-market strategy, revenue operations, and team structure. Our team analyses existing processes, identifies gaps, and evaluates your team's capabilities to develop a clear picture of your current situation.
                   </p>
                 </div>
               </div>
@@ -59,9 +59,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="md:w-3/4">
-                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Talent Assessment & Acquisition</h3>
+                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Strategic Consultancy & Team Building</h3>
                   <p className="text-gray-700">
-                    We identify critical skill gaps in your revenue team and help you acquire top talent that aligns with your business goals. Our talent acquisition services focus on finding professionals who can drive meaningful revenue growth.
+                    We help you build high-performing teams through strategic consultancy and leadership development, focusing on creating teams that align with your business goals and drive meaningful revenue growth.
                   </p>
                 </div>
               </div>
@@ -87,9 +87,9 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="md:w-3/4">
-                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Performance Monitoring & Optimization</h3>
+                  <h3 className="text-xl font-bold mb-3 text-revenuePrimary">Performance Monitoring & Optimisation</h3>
                   <p className="text-gray-700">
-                    We establish clear KPIs and regularly monitor performance against revenue objectives. Our iterative approach allows for continuous improvement and optimization of your go-to-market strategy based on real-world results.
+                    We establish clear KPIs and regularly monitor performance against revenue objectives. Our iterative approach allows for continuous improvement and optimisation of your go-to-market strategy based on real-world results.
                   </p>
                 </div>
               </div>

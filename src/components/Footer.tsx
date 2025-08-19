@@ -15,7 +15,7 @@ const Footer = () => {
               />
             </div>
             <p className="mb-4 text-sm opacity-80">
-              Expert GTM talent acquisition and consultancy, building teams primed for success.
+              Expert consultancy and building teams primed for success.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="bg-revealTeal/20 hover:bg-revealTeal/40 p-2 rounded-full transition-colors">
@@ -34,10 +34,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-revealTeal">Our Services</h4>
             <ul className="space-y-3 text-sm">
-              <li><Link to="/services" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Go-to-Market Strategy</Link></li>
-              <li><Link to="/services" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Talent Acquisition</Link></li>
-              <li><Link to="/services" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Revenue Consultancy</Link></li>
-              <li><Link to="/services" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Team Building</Link></li>
+              <li><Link to="/services/go-to-market-strategy" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Go-to-Market Strategy</Link></li>
+              <li><Link to="/services/sales-operations" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Sales Operations</Link></li>
+              <li><Link to="/services/revenue-consultancy" className="hover:text-revealTeal transition-colors opacity-80 hover:opacity-100">Revenue Consultancy</Link></li>
             </ul>
           </div>
           

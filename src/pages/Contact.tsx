@@ -42,7 +42,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-bold text-lg mb-3 text-revenuePrimary">What is your consultancy approach?</h3>
                 <p className="text-gray-700">
-                  Our approach involves thorough analysis, tailored strategy development, implementation support, and performance monitoring. We emphasize collaboration and knowledge transfer to build your team's capabilities.
+                  Our approach involves thorough analysis, tailored strategy development, implementation support, and performance monitoring. We emphasise collaboration and knowledge transfer to build your team's capabilities.
                 </p>
               </div>
               

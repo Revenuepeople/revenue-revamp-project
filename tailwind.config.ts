@@ -108,7 +108,8 @@ export default {
 				'fade-in': 'fade-in 0.7s ease-out forwards'
 			},
 			fontFamily: {
-				'sans': ['Inter', 'sans-serif'],
+				'sans': ['Lato', 'sans-serif'],
+				'lato': ['Lato', 'sans-serif'],
 			}
 		}
 	},

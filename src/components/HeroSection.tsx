@@ -67,8 +67,8 @@ const HeroSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-revealDark">Exit Experience</h4>
-                    <p className="text-revealBlue">Guided companies to $700M+ exits</p>
+                    <h4 className="font-semibold text-revealDark">Revenue Focus</h4>
+                    <p className="text-revealBlue">A scalable revenue operating system</p>
                   </div>
                 </div>
               </div>

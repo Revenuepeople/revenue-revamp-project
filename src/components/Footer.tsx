@@ -15,7 +15,7 @@ const Footer = () => {
               />
             </div>
             <p className="mb-4 text-sm opacity-80">
-              Expert consultancy and building teams primed for success.
+              Expert Consultancy, Building Teams Primed For Success.
             </p>
             <div className="flex space-x-4 mt-6">
               <a href="#" className="bg-revealTeal/20 hover:bg-revealTeal/40 p-2 rounded-full transition-colors">

@@ -15,7 +15,7 @@ const AboutSection = () => {
                   Expert Consultancy for <span className="text-revealTeal">Business Growth</span>
                 </h3>
                 <p className="text-revealBlue mb-6">
-                  At Revenue People, we specialize in transforming business challenges into growth
+                  At Revenue People, we specialise in transforming business challenges into growth
                   opportunities through strategic consultancy and expert guidance.
                 </p>
                 <ul className="space-y-4">

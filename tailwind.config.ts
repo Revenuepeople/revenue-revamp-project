@@ -68,6 +68,10 @@ export default {
 				revealLight: "#E1F3F0",
 				revealBlue: "#448C93",
 				revealDark: "#151523",
+				// Revenue brand colors for compatibility
+				revenuePrimary: "#151523",
+				revenuePink: "#07AA96",
+				revenueGray: "#E1F3F0",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

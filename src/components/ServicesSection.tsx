@@ -5,12 +5,12 @@ const ServicesSection = () => {
   const services = [
     {
       title: "Strategic Consultancy",
-      description: "Comprehensive business analysis and strategic planning to identify growth opportunities and optimize operations.",
+      description: "Comprehensive business analysis and strategic planning to identify growth opportunities and optimise operations.",
       icon: "🎯"
     },
     {
-      title: "Revenue Optimization",
-      description: "Maximize your earning potential with data-driven strategies and innovative revenue models.",
+      title: "Revenue Optimisation",
+      description: "Maximise your earning potential with data-driven strategies and innovative revenue models.",
       icon: "📈"
     },
     {

@@ -10,8 +10,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
               <span className="text-revealLight">Unlock Your Revenue Potential:</span>
-              <span className="block mt-4">Expert Consultancy &</span>
-              <span className="block mt-2">Building Teams</span>
+              <span className="block mt-4">Expert Consultancy, Building Teams</span>
               <span className="block mt-2">Primed For Success.</span>
             </h1>
             <div className="h-1 w-24 bg-revealTeal my-6 mx-auto lg:mx-0"></div>

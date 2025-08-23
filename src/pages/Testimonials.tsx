@@ -26,21 +26,21 @@ const Testimonials = () => {
       name: "Emily Rodriguez",
       position: "Head of Sales",
       company: "Velocity Partners",
-      quote: "Revenue People's consultancy services helped us restructure our entire sales process. Their expertise in revenue optimization strategies directly contributed to a 40% increase in our quarterly earnings. The team took the time to understand our sales cycle, identify bottlenecks, and implement targeted improvements. They provided valuable training to our sales team and introduced innovative approaches to prospect qualification and customer retention. What stands out about Revenue People is their results-oriented mindset and their commitment to delivering tangible value.",
+      quote: "Revenue People's consultancy services helped us restructure our entire sales process. Their expertise in revenue optimisation strategies directly contributed to a 40% increase in our quarterly earnings. The team took the time to understand our sales cycle, identify bottlenecks, and implement targeted improvements. They provided valuable training to our sales team and introduced innovative approaches to prospect qualification and customer retention. What stands out about Revenue People is their results-oriented mindset and their commitment to delivering tangible value.",
       rating: 5,
     },
     {
       name: "David Wilson",
       position: "Managing Director",
       company: "Apex Solutions",
-      quote: "I was skeptical at first, but Revenue People's strategic consultancy has been a game-changer for our business. Their team took the time to understand our unique challenges and provided tailored solutions. The analysis they conducted was incredibly thorough, uncovering insights about our market positioning that we had completely missed. They helped us realign our service offerings to better meet customer needs and optimize our pricing strategy. The guidance they provided on our expansion into new markets was particularly valuable, allowing us to avoid common pitfalls and accelerate our growth journey.",
+      quote: "I was sceptical at first, but Revenue People's strategic consultancy has been a game-changer for our business. Their team took the time to understand our unique challenges and provided tailored solutions. The analysis they conducted was incredibly thorough, uncovering insights about our market positioning that we had completely missed. They helped us realign our service offerings to better meet customer needs and optimise our pricing strategy. The guidance they provided on our expansion into new markets was particularly valuable, allowing us to avoid common pitfalls and accelerate our growth journey.",
       rating: 5,
     },
     {
       name: "Jennifer Lee",
       position: "Marketing Director",
       company: "Innovate Digital",
-      quote: "Revenue People helped us transform our marketing strategy from a cost center to a revenue driver. Their consultancy team provided data-driven insights that allowed us to better allocate our budget and focus on high-performing channels. They worked closely with our team to develop more effective messaging and build a stronger value proposition. The results were remarkable – our customer acquisition cost decreased by 30% while conversion rates improved significantly. I highly recommend their services to any business looking to optimize their marketing performance and drive growth.",
+      quote: "Revenue People helped us transform our marketing strategy from a cost centre to a revenue driver. Their consultancy team provided data-driven insights that allowed us to better allocate our budget and focus on high-performing channels. They worked closely with our team to develop more effective messaging and build a stronger value proposition. The results were remarkable – our customer acquisition cost decreased by 30% while conversion rates improved significantly. I highly recommend their services to any business looking to optimise their marketing performance and drive growth.",
       rating: 5,
     },
     {
@@ -66,47 +66,6 @@ const Testimonials = () => {
       
       <TestimonialsSection />
       
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-revenuePrimary text-center">Success Stories</h2>
-            <div className="w-20 h-1 bg-revenuePink mx-auto mb-12"></div>
-            
-            <div className="grid grid-cols-1 gap-8">
-              {detailedTestimonials.map((testimonial, index) => (
-                <Card key={index} className="overflow-hidden border-none shadow-lg">
-                  <CardContent className="p-8">
-                    <div className="flex flex-col md:flex-row gap-8">
-                      <div className="md:w-1/4">
-                        <div className="bg-revenueGray p-4 rounded-lg flex flex-col items-center justify-center h-full">
-                          <div className="w-16 h-16 bg-revenuePrimary rounded-full mb-3"></div>
-                          <h4 className="font-bold text-revenuePrimary text-center">{testimonial.name}</h4>
-                          <p className="text-gray-600 text-sm text-center">{testimonial.position}</p>
-                          <p className="text-gray-600 text-sm font-medium text-center">{testimonial.company}</p>
-                          <div className="flex mt-3">
-                            {[...Array(testimonial.rating)].map((_, i) => (
-                              <Star
-                                key={i}
-                                className="h-4 w-4 fill-revenuePink text-revenuePink"
-                              />
-                            ))}
-                          </div>
-                        </div>
-                      </div>
-                      <div className="md:w-3/4">
-                        <blockquote className="text-gray-700 italic mb-4">
-                          "{testimonial.quote}"
-                        </blockquote>
-                        <div className="h-1 w-20 bg-revenueGray"></div>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
       
       <CtaSection />
       <Footer />

@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CtaSection from "@/components/CtaSection";
+import ryanFaganImage from "@/assets/ryan-fagan.jpg";
 
 const About = () => {
   return (
@@ -123,7 +124,7 @@ const About = () => {
                 <div className="flex flex-col items-center bg-white rounded-lg shadow-lg p-8">
                   <div className="w-32 h-32 rounded-full overflow-hidden mb-6 border-4 border-revealTeal">
                     <img 
-                      src="/src/assets/ryan-fagan.jpg" 
+                      src={ryanFaganImage} 
                       alt="Ryan Fagan" 
                       className="w-full h-full object-cover"
                     />

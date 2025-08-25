@@ -64,6 +64,12 @@ jobs:
       - name: Create 404.html for SPA routing
         run: cp dist/index.html dist/404.html
       
+      - name: Inject CSP meta for HTTPS on Pages
+        run: |
+          CSP='    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">'
+          sed -i 's|    <!-- HTTPS and Security Meta Tags -->|    <!-- HTTPS and Security Meta Tags -->\n'"$CSP"'|' dist/index.html
+          sed -i 's|    <!-- HTTPS and Security Meta Tags -->|    <!-- HTTPS and Security Meta Tags -->\n'"$CSP"'|' dist/404.html
+      
       - name: Create .nojekyll file
         run: touch dist/.nojekyll
       

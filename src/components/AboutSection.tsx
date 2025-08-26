@@ -21,7 +21,7 @@ const AboutSection = () => {
                 <ul className="space-y-4">
                   <li className="flex items-start bg-revealLight p-3 rounded-md">
                     <span className="text-revealTeal font-bold mr-2 mt-1">✓</span>
-                    <span className="text-revealBlue">15+ years of business consultancy experience</span>
+                    <span className="text-revealBlue">15+ years of SaaS experience</span>
                   </li>
                   <li className="flex items-start bg-revealLight p-3 rounded-md">
                     <span className="text-revealTeal font-bold mr-2 mt-1">✓</span>

@@ -31,7 +31,7 @@ const testimonials: Testimonial[] = [
     company: "Silkflo",
     quote: "As the founder of a SaaS business, Ryan helped us understand and implement a value-led sales approach, with the goal of improving early-stage conversions. Ryan has deep knowledge and shared practical insights that were invaluable. He guided us through the process of aligning our sales strategy with customer value, resulting in more meaningful client relationships and improved performance.",
     rating: 5,
-    image: `${import.meta.env.BASE_URL}lovable-uploads/61e35a0d-eeb8-4ccd-a8d5-e65c09fe7844.png`,
+    image: `${import.meta.env.BASE_URL}lovable-uploads/08d29ee5-5024-4446-9154-6b2a496673dc.png`,
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const testimonials: Testimonial[] = [
     company: "Pandektes",
     quote: "Ryan provided invaluable consulting advice to enhance our team's sales fundamentals. His expertise and guidance significantly improved our sales strategies and techniques, leading to notable improvements in our overall performance. Ryan's ability to tailor his approach to our specific needs and communicate complex concepts clearly made a lasting impact on our sales processes.",
     rating: 5,
-    image: `${import.meta.env.BASE_URL}lovable-uploads/08d29ee5-5024-4446-9154-6b2a496673dc.png`,
+    image: `${import.meta.env.BASE_URL}lovable-uploads/61e35a0d-eeb8-4ccd-a8d5-e65c09fe7844.png`,
   },
 ];
 

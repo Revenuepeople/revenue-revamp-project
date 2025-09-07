@@ -1,9 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Target } from "lucide-react";
-
 const MissionSection = () => {
-  return (
-    <section className="py-20 bg-gradient-to-r from-primary/5 to-secondary/5 relative">
+  return <section className="py-20 bg-gradient-to-r from-primary/5 to-secondary/5 relative">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           {/* Background glow effect */}
@@ -23,15 +21,17 @@ const MissionSection = () => {
                 Our Mission
               </h2>
               
-              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-medium max-w-4xl mx-auto">
-                Our mission is to elevate the status of salespeople everywhere through a relentless dedication to execution excellence, transparency and empowering teams to reach their highest potential.
-              </p>
+              <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-medium max-w-4xl mx-auto">A relentless commitment to execution excellence and transparency, we elevate sales professionals and help teams reach their highest potential.
+
+
+
+
+
+            </p>
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default MissionSection;

@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CtaSection from "@/components/CtaSection";
-import ryanFaganImage from "@/assets/ryan-fagan.jpg";
+import ryanFaganImage from "@/assets/ryan-fagan-new.jpg";
 
 const About = () => {
   return (
